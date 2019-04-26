@@ -1,5 +1,5 @@
-import subprocess
 import sys
+import subprocess
 
 def dump(url):
     try:
