@@ -37,8 +37,6 @@ def test_parser_with_know_driver(parser):
     for driver in ['local', 's3']:
         assert parser.parse_args([url, '--driver', driver, 'destination'])
 
-
-
 def test_parser_with_driver_and_destination(parser):
     """
     The parser will not exit if it receives a driver and destination

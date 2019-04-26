@@ -8,6 +8,7 @@ pytest = "*"
 pytest-mock = "*"
 
 [packages]
+pysnooper = "*"
 
 [requires]
 python_version = "3.7"
